@@ -5,7 +5,7 @@ toc: true
 layout: single
 ---
 
- {%- for x in site.categories["docencia"]  %}
+ {%- for post in site.categories["docencia"]  %}
 * [{{post.title}}]({{post.url}})
  {% endfor %}
 

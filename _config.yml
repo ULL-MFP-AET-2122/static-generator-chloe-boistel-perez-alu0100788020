@@ -289,6 +289,3 @@ defaults:
       share: true
       related: true
       permalink: :categories/:title
-footer_scripts:
-  - /assets/js/mathjax-configure.js
-  - "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"

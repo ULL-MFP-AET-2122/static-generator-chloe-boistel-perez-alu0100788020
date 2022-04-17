@@ -14,7 +14,7 @@ task :deploy do
   sh "cd _site; git add .; git commit -am new-deploy; git push -u origin master"
 end
 
-task: :deployforce do
+task :deployforce do
   sh "cd _site; git init .; touch .nojekyll; git add .; git commit -am new-deploy; git push -fu https://github.com/ChloeBoistel/ChloeBoistel.github.io.git master"
 end
 

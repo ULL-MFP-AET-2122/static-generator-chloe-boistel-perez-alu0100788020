@@ -8,6 +8,8 @@ main:
     url: /blog
   - title: "Personal"
     url: /personal
+  - title: "Educación"
+    url: /proyecto
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
